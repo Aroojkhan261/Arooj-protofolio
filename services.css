@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    height: 3rem;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+.navheading span{
+    color: #fc9595;
+}
+.navitems a{
+    font-size:1.2rem;
+    text-decoration: none;
+    padding-left: 1.5rem;
+    padding-right: 1rem;
+    width: 2rem;
+}.ancor{
+    color:#fc9595;
+}
+.navitems a:hover{
+    color: #fc9595;
+}
+.content{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+}
+.fa-html5{
+    padding-left: 3rem;
+    color: orange;
+    font-size :20rem;
+    transition: all ease-out 1s;
+}.heading{
+    color: #fc9595;
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 5rem;
+}
+.fa-css3-alt{
+    padding-left: 3rem;
+    color: rgb(21, 21, 188);
+    font-size :20rem;transition: all ease-out 1s;
+}.fa-js{
+    padding-left: 3rem;
+    color:yellow;
+    font-size :20rem;transition: all ease-out 1s;
+}
+.fa-camera{
+    padding-left: 3rem;
+    color: hotpink;
+    font-size :20rem;transition: all ease-out 1s;
+}
+.icons{
+    padding-top: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+h1{
+    padding-left:8rem;
+}
+.fa-html5:hover{
+    font-size: 22rem
+}.fa-js:hover{
+    font-size: 22rem
+}.fa-camera:hover{
+    font-size: 22rem
+}.fa-css3-alt:hover{
+    font-size: 22rem
+}

@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    height: 3rem;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+.navheading span{
+    color: #fc9595;
+}
+.navitems a{
+    font-size:1.2rem;
+    text-decoration: none;
+    padding-left: 1.5rem;
+    padding-right: 1rem;
+    width: 2rem;
+}.ancor{
+    color:#fc9595;
+}
+.navitems a:hover{
+    color: #fc9595;
+}.content{
+    background-color: black;
+    width: 100vw;
+    height: 120vh;
+}.heading{
+    color: #fc9595;
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 5rem;
+}
+.pic1{
+    width:30vw;
+    height: 30vh;background-image: url("pic2.png");
+    background-size: cover;
+}.pic2{
+    width:30vw;
+    height: 30vh;background-image: url("pic3.png");
+    background-size: cover;
+}.pic3{
+    width:30vw;
+    height: 30vh;background-image: url("pic4.png");
+    background-size: cover;
+}.pictures
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 2rem;
+}
+.text{
+    display: flex;
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    justify-content: space-around;
+}.pic5{
+    width:20vw;
+    height: 50vh;background-image: url("pic5.jpeg");
+    background-size: cover;
+}.pic6{
+    width:20vw;
+    height: 50vh;background-image: url("pic6.jpeg");
+    background-size: cover;
+}.pic7{
+    width:20vw;
+    height: 50vh;background-image: url("pic7.jpeg");
+    background-size: cover;}
+    .pic8{
+        width:30vw;
+        height: 50vh;background-image: url("pic8.jpeg");
+        background-size: cover;}
+        .pict{
+            display: flex;
+            justify-content: space-around
+        }
+        
